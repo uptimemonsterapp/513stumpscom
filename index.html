@@ -1,0 +1,2105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Services - Stump Grinding | Cincinnati, OH | Professional Stump Removal</title>
+    <meta name="description" content="Valentine Services - Professional stump grinding and removal in Cincinnati, OH. Residential & commercial stump grinding, root grinding services. Call 513-570-4626 for free estimates.">
+    <meta name="keywords" content="stump grinding Cincinnati, stump removal Ohio, tree stump removal, residential stump grinding, commercial stump grinding, root grinding">
+    <link rel="icon" type="image/svg+xml" href="https://www.513stumps.com/images/valentine_logo2.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/fontsource/css/oswald@latest/latin-400-normal.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/fontsource/css/open-sans@latest/latin-400-normal.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/fontsource/css/open-sans@latest/latin-600-normal.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/fontsource/css/open-sans@latest/latin-700-normal.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2d5016;
+            --primary-dark: #1a3009;
+            --primary-light: #4a7c23;
+            --accent: #f5a623;
+            --accent-dark: #d4891a;
+            --dark: #1a1a1a;
+            --gray-dark: #333;
+            --gray: #666;
+            --gray-light: #f5f5f5;
+            --white: #ffffff;
+            --shadow: 0 4px 20px rgba(0,0,0,0.1);
+            --shadow-lg: 0 10px 40px rgba(0,0,0,0.15);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: var(--gray-dark);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Top Bar */
+        .top-bar {
+            background: var(--primary-dark);
+            color: var(--white);
+            padding: 8px 0;
+            font-size: 0.85rem;
+        }
+
+        .top-bar a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .top-bar a:hover {
+            color: var(--white);
+        }
+
+        .top-bar .social-links a {
+            margin-left: 15px;
+            font-size: 1.1rem;
+        }
+
+        /* Header */
+        .main-header {
+            background: var(--white);
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.3s;
+        }
+
+        .main-header.scrolled {
+            box-shadow: var(--shadow-lg);
+        }
+
+        .logo img {
+            height: 70px;
+            width: auto;
+        }
+
+        .main-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            gap: 5px;
+        }
+
+        .nav-links li a {
+            color: var(--gray-dark);
+            text-decoration: none;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            padding: 25px 15px;
+            display: block;
+            transition: all 0.3s;
+            border-bottom: 3px solid transparent;
+        }
+
+        .nav-links li a:hover,
+        .nav-links li a.active {
+            color: var(--primary);
+            border-bottom-color: var(--accent);
+        }
+
+        .nav-links .dropdown {
+            position: relative;
+        }
+
+        .nav-links .dropdown-menu-custom {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: var(--white);
+            min-width: 280px;
+            box-shadow: var(--shadow-lg);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: all 0.3s;
+            list-style: none;
+            padding: 10px 0;
+            z-index: 100;
+        }
+
+        .nav-links .dropdown:hover .dropdown-menu-custom {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .dropdown-menu-custom li a {
+            padding: 10px 20px;
+            font-size: 0.85rem;
+            border-bottom: none;
+        }
+
+        .dropdown-menu-custom li a:hover {
+            background: var(--gray-light);
+            color: var(--primary);
+            border-bottom: none;
+        }
+
+        .mobile-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.8rem;
+            color: var(--primary);
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, rgba(26, 48, 9, 0.92) 0%, rgba(45, 80, 22, 0.85) 100%),
+                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%232d5016" width="1200" height="800"/><circle cx="200" cy="400" r="150" fill="%231a3009" opacity="0.3"/><circle cx="900" cy="300" r="200" fill="%234a7c23" opacity="0.2"/><circle cx="600" cy="600" r="180" fill="%231a3009" opacity="0.2"/></svg>');
+            background-size: cover;
+            background-position: center;
+            color: var(--white);
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="wood" patternUnits="userSpaceOnUse" width="20" height="20"><circle cx="10" cy="10" r="8" fill="none" stroke="%23ffffff" stroke-width="0.3" opacity="0.05"/></pattern></defs><rect width="100" height="100" fill="url(%23wood)"/></svg>');
+            opacity: 0.5;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero h1 span {
+            color: var(--accent);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+            max-width: 600px;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .hero-stat {
+            text-align: center;
+        }
+
+        .hero-stat .number {
+            font-family: 'Oswald', sans-serif;
+            font-size: 2.5rem;
+            color: var(--accent);
+            display: block;
+        }
+
+        .hero-stat .label {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.8;
+        }
+
+        /* Buttons */
+        .btn-primary-custom {
+            background: var(--accent);
+            color: var(--white);
+            border: none;
+            padding: 15px 35px;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 1rem;
+            border-radius: 3px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(245, 166, 35, 0.3);
+        }
+
+        .btn-primary-custom:hover {
+            background: var(--accent-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(245, 166, 35, 0.4);
+            color: var(--white);
+        }
+
+        .btn-outline-custom {
+            background: transparent;
+            color: var(--white);
+            border: 2px solid var(--white);
+            padding: 13px 35px;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 1rem;
+            border-radius: 3px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s;
+        }
+
+        .btn-outline-custom:hover {
+            background: var(--white);
+            color: var(--primary);
+        }
+
+        .btn-green {
+            background: var(--primary);
+            color: var(--white);
+            border: none;
+            padding: 15px 35px;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 1rem;
+            border-radius: 3px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s;
+        }
+
+        .btn-green:hover {
+            background: var(--primary-dark);
+            color: var(--white);
+            transform: translateY(-2px);
+        }
+
+        /* Sections */
+        .section {
+            padding: 80px 0;
+        }
+
+        .section-dark {
+            background: var(--dark);
+            color: var(--white);
+        }
+
+        .section-gray {
+            background: var(--gray-light);
+        }
+
+        .section-green {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-dark .section-title h2,
+        .section-green .section-title h2 {
+            color: var(--white);
+        }
+
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background: var(--accent);
+        }
+
+        .section-title p {
+            color: var(--gray);
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 20px auto 0;
+        }
+
+        .section-dark .section-title p {
+            color: rgba(255,255,255,0.7);
+        }
+
+        /* Services Cards */
+        .service-card {
+            background: var(--white);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.4s;
+            height: 100%;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .service-card-icon {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            padding: 40px;
+            text-align: center;
+        }
+
+        .service-card-icon i {
+            font-size: 3rem;
+            color: var(--accent);
+        }
+
+        .service-card-body {
+            padding: 30px;
+        }
+
+        .service-card-body h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        .service-card-body p {
+            color: var(--gray);
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        .service-card-body a {
+            color: var(--accent);
+            text-decoration: none;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+
+        .service-card-body a:hover {
+            color: var(--primary);
+        }
+
+        /* Why Choose Us */
+        .feature-item {
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .feature-item i {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+
+        .feature-item h4 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .feature-item p {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+            padding: 60px 0;
+            text-align: center;
+            color: var(--white);
+        }
+
+        .cta-section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
+
+        .cta-section p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+
+        /* About Section */
+        .about-img-wrapper {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .about-img-wrapper::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 50%, var(--accent) 100%);
+            opacity: 0.8;
+            z-index: 1;
+        }
+
+        .about-img-content {
+            position: relative;
+            z-index: 2;
+            padding: 60px 40px;
+            color: var(--white);
+            text-align: center;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .about-img-content i {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            color: var(--accent);
+        }
+
+        .about-img-content h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        /* Testimonials */
+        .testimonial-card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .testimonial-card::before {
+            content: '"';
+            font-size: 4rem;
+            color: var(--accent);
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-family: serif;
+            line-height: 1;
+            opacity: 0.5;
+        }
+
+        .testimonial-card p {
+            font-style: italic;
+            color: var(--gray);
+            margin-bottom: 15px;
+            padding-top: 20px;
+        }
+
+        .testimonial-card .author {
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .testimonial-card .stars {
+            color: var(--accent);
+        }
+
+        /* Contact Section */
+        .contact-info-card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            height: 100%;
+            transition: all 0.3s;
+        }
+
+        .contact-info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .contact-info-card i {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .contact-info-card h4 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .contact-info-card p, .contact-info-card a {
+            color: var(--gray);
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .contact-info-card a:hover {
+            color: var(--primary);
+        }
+
+        .contact-form {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+        }
+
+        .contact-form .form-control {
+            border: 2px solid #e0e0e0;
+            padding: 12px 15px;
+            border-radius: 5px;
+            font-size: 0.95rem;
+            transition: border-color 0.3s;
+        }
+
+        .contact-form .form-control:focus {
+            border-color: var(--primary);
+            box-shadow: none;
+        }
+
+        .contact-form label {
+            font-weight: 600;
+            color: var(--gray-dark);
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+        }
+
+        /* Map */
+        .map-wrapper {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .map-wrapper iframe {
+            width: 100%;
+            height: 400px;
+        }
+
+        /* Footer */
+        .main-footer {
+            background: var(--dark);
+            color: rgba(255,255,255,0.7);
+            padding: 60px 0 0;
+        }
+
+        .footer-logo img {
+            height: 60px;
+            margin-bottom: 20px;
+            filter: brightness(0) invert(1);
+        }
+
+        .footer-title {
+            color: var(--white);
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 2px;
+            background: var(--accent);
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links li a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+        }
+
+        .footer-links li a:hover {
+            color: var(--accent);
+            padding-left: 5px;
+        }
+
+        .footer-contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 15px;
+        }
+
+        .footer-contact-item i {
+            color: var(--accent);
+            font-size: 1.1rem;
+            margin-top: 3px;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding: 20px 0;
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+
+        .footer-social a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            color: var(--white);
+            margin-right: 10px;
+            transition: all 0.3s;
+        }
+
+        .footer-social a:hover {
+            background: var(--accent);
+            transform: translateY(-3px);
+        }
+
+        /* Page Header */
+        .page-header {
+            background: linear-gradient(135deg, rgba(26, 48, 9, 0.95) 0%, rgba(45, 80, 22, 0.9) 100%),
+                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400"><rect fill="%232d5016" width="1200" height="400"/></svg>');
+            background-size: cover;
+            padding: 100px 0 60px;
+            text-align: center;
+            color: var(--white);
+        }
+
+        .page-header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+
+        .page-header .breadcrumb-custom {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .page-header .breadcrumb-custom a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        /* Service Page Content */
+        .service-detail-section {
+            padding: 60px 0;
+        }
+
+        .service-detail-content h2 {
+            color: var(--primary);
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .service-detail-content h3 {
+            color: var(--primary);
+            font-size: 1.4rem;
+            margin: 30px 0 15px;
+        }
+
+        .service-detail-content p {
+            margin-bottom: 15px;
+            color: var(--gray);
+        }
+
+        .service-detail-content ul {
+            padding-left: 0;
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .service-detail-content ul li {
+            padding: 8px 0 8px 30px;
+            position: relative;
+            color: var(--gray);
+        }
+
+        .service-detail-content ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-weight: bold;
+        }
+
+        .service-sidebar {
+            background: var(--gray-light);
+            padding: 30px;
+            border-radius: 8px;
+            position: sticky;
+            top: 100px;
+        }
+
+        .service-sidebar h4 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+
+        .service-sidebar .sidebar-links {
+            list-style: none;
+            padding: 0;
+        }
+
+        .service-sidebar .sidebar-links li {
+            margin-bottom: 8px;
+        }
+
+        .service-sidebar .sidebar-links li a {
+            display: block;
+            padding: 12px 15px;
+            background: var(--white);
+            color: var(--gray-dark);
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+        }
+
+        .service-sidebar .sidebar-links li a:hover,
+        .service-sidebar .sidebar-links li a.active {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        .service-sidebar .cta-box {
+            background: var(--primary);
+            color: var(--white);
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .service-sidebar .cta-box h4 {
+            color: var(--white);
+            margin-bottom: 10px;
+        }
+
+        .service-sidebar .cta-box p {
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            opacity: 0.9;
+        }
+
+        /* Process Steps */
+        .process-step {
+            text-align: center;
+            padding: 30px 20px;
+            position: relative;
+        }
+
+        .process-step .step-number {
+            width: 60px;
+            height: 60px;
+            background: var(--accent);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.5rem;
+            margin: 0 auto 20px;
+        }
+
+        .process-step h4 {
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .process-step p {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Responsive */
+        @media (max-width: 991px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--white);
+                flex-direction: column;
+                padding: 20px;
+                box-shadow: var(--shadow-lg);
+            }
+
+            .nav-links.show {
+                display: flex;
+            }
+
+            .nav-links li a {
+                padding: 12px 15px;
+                border-bottom: 1px solid var(--gray-light);
+            }
+
+            .nav-links .dropdown-menu-custom {
+                position: static;
+                opacity: 1;
+                visibility: visible;
+                transform: none;
+                box-shadow: none;
+                padding-left: 20px;
+            }
+
+            .mobile-toggle {
+                display: block;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-stats {
+                gap: 20px;
+            }
+
+            .hero-stat .number {
+                font-size: 1.8rem;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .hero {
+                min-height: 70vh;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .section {
+                padding: 50px 0;
+            }
+
+            .section-title h2 {
+                font-size: 2rem;
+            }
+
+            .page-header h1 {
+                font-size: 2rem;
+            }
+
+            .hero-stats {
+                flex-wrap: wrap;
+            }
+        }
+
+        /* Scroll to top */
+        .scroll-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 45px;
+            height: 45px;
+            background: var(--primary);
+            color: var(--white);
+            border: none;
+            border-radius: 50%;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 999;
+            transition: all 0.3s;
+            box-shadow: var(--shadow);
+        }
+
+        .scroll-top:hover {
+            background: var(--accent);
+            transform: translateY(-3px);
+        }
+
+        .scroll-top.show {
+            display: flex;
+        }
+
+        /* Page visibility */
+        .page-section {
+            display: none;
+        }
+
+        .page-section.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                <div>
+                    <span><i class="bi bi-telephone-fill me-1"></i> <a href="tel:5135704626">513-570-4626</a></span>
+                    <span class="ms-3"><i class="bi bi-envelope-fill me-1"></i> <a href="mailto:bikemanjrv95@gmail.com">bikemanjrv95@gmail.com</a></span>
+                </div>
+                <div class="d-none d-md-block">
+                    <span><i class="bi bi-clock-fill me-1"></i> Mon - Sat: Open 24 Hours</span>
+                    <span class="social-links">
+                        <a href="https://www.instagram.com/513stumpgrinding/" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header" id="mainHeader">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="#" class="logo" onclick="showPage('home')">
+                    <img src="https://www.513stumps.com/images/valentine_logo2.svg" alt="Valentine Services - Stump Grinding Logo">
+                </a>
+                <button class="mobile-toggle" onclick="toggleMobileMenu()">
+                    <i class="bi bi-list"></i>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#" onclick="showPage('home')" class="active" data-page="home">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" data-page="services">Services <i class="bi bi-chevron-down" style="font-size:0.7rem"></i></a>
+                        <ul class="dropdown-menu-custom">
+                            <li><a href="#" onclick="showPage('stump-removal')">Stump Removal</a></li>
+                            <li><a href="#" onclick="showPage('tree-stump-removal')">Tree Stump Removal</a></li>
+                            <li><a href="#" onclick="showPage('residential-stump-grinding')">Residential Stump Grinding</a></li>
+                            <li><a href="#" onclick="showPage('commercial-stump-grinding')">Commercial Stump Grinding</a></li>
+                            <li><a href="#" onclick="showPage('root-grinding')">Root Grinding</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" onclick="showPage('about')" data-page="about">About</a></li>
+                    <li><a href="#" onclick="showPage('contact')" data-page="contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ==================== HOME PAGE ==================== -->
+    <div class="page-section active" id="page-home">
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Professional <span>Stump Grinding</span> Services in Cincinnati, OH</h1>
+                    <p>Valentine Services provides expert stump removal and grinding solutions for residential and commercial properties. Fast, affordable, and thorough — we restore your landscape to its full beauty.</p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="tel:5135704626" class="btn-primary-custom"><i class="bi bi-telephone-fill me-2"></i>Call 513-570-4626</a>
+                        <a href="#" onclick="showPage('contact')" class="btn-outline-custom">Get Free Estimate</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <span class="number">500+</span>
+                            <span class="label">Stumps Removed</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="number">100%</span>
+                            <span class="label">Satisfaction</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="number">24/7</span>
+                            <span class="label">Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Overview -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Our Professional Services</h2>
+                    <p>From small residential stumps to large commercial properties, we have the equipment and expertise to handle any stump grinding job in the Cincinnati area.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 fade-in">
+                        <div class="service-card">
+                            <div class="service-card-icon">
+                                <i class="bi bi-tree-fill"></i>
+                            </div>
+                            <div class="service-card-body">
+                                <h3><a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener">Stump Removal</a></h3>
+                                <p>Complete stump removal services that eliminate unsightly stumps from your property. We grind stumps below ground level, leaving your yard clean and ready for replanting or landscaping.</p>
+                                <a href="#" onclick="showPage('stump-removal')">Learn More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 fade-in">
+                        <div class="service-card">
+                            <div class="service-card-icon">
+                                <i class="bi bi-tree"></i>
+                            </div>
+                            <div class="service-card-body">
+                                <h3><a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener">Tree Stump Removal</a></h3>
+                                <p>Specialized tree stump removal for all sizes and species. Whether you have a small ornamental tree stump or a massive oak, our professional equipment handles it efficiently.</p>
+                                <a href="#" onclick="showPage('tree-stump-removal')">Learn More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 fade-in">
+                        <div class="service-card">
+                            <div class="service-card-icon">
+                                <i class="bi bi-house-fill"></i>
+                            </div>
+                            <div class="service-card-body">
+                                <h3><a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener">Residential Stump Grinding</a></h3>
+                                <p>Tailored stump grinding solutions for homeowners. We protect your lawn, landscaping, and property while completely removing tree stumps from your residential yard.</p>
+                                <a href="#" onclick="showPage('residential-stump-grinding')">Learn More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 fade-in">
+                        <div class="service-card">
+                            <div class="service-card-icon">
+                                <i class="bi bi-building"></i>
+                            </div>
+                            <div class="service-card-body">
+                                <h3><a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener">Commercial Stump Grinding</a></h3>
+                                <p>Large-scale stump grinding for commercial properties, parks, HOAs, and business landscapes. We work efficiently to minimize disruption while delivering professional results.</p>
+                                <a href="#" onclick="showPage('commercial-stump-grinding')">Learn More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 fade-in">
+                        <div class="service-card">
+                            <div class="service-card-icon">
+                                <i class="bi bi-diagram-3-fill"></i>
+                            </div>
+                            <div class="service-card-body">
+                                <h3><a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener">Root Grinding</a></h3>
+                                <p>Professional root grinding services to remove surface roots and root systems that damage lawns, driveways, and foundations. Restore your property's grade and appearance.</p>
+                                <a href="#" onclick="showPage('root-grinding')">Learn More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 fade-in">
+                        <div class="service-card">
+                            <div class="service-card-icon">
+                                <i class="bi bi-clipboard-check-fill"></i>
+                            </div>
+                            <div class="service-card-body">
+                                <h3>Free Estimates</h3>
+                                <p>Not sure what you need? Contact us for a free, no-obligation estimate. We'll assess your property, discuss your options, and provide an honest quote with no hidden fees.</p>
+                                <a href="#" onclick="showPage('contact')">Get Estimate <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="section section-gray">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Why Choose Valentine Services</h2>
+                    <p>We're Cincinnati's trusted stump grinding professionals, committed to delivering exceptional results on every job.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 fade-in">
+                        <div class="feature-item">
+                            <i class="bi bi-shield-check"></i>
+                            <h4>Licensed & Insured</h4>
+                            <p>Fully licensed and insured for your protection and peace of mind on every project.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 fade-in">
+                        <div class="feature-item">
+                            <i class="bi bi-clock-history"></i>
+                            <h4>Fast Service</h4>
+                            <p>Same-day and next-day service available. We respect your time and schedule.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 fade-in">
+                        <div class="feature-item">
+                            <i class="bi bi-cash-coin"></i>
+                            <h4>Competitive Pricing</h4>
+                            <p>Transparent, fair pricing with no hidden fees. Free estimates on all jobs.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 fade-in">
+                        <div class="feature-item">
+                            <i class="bi bi-star-fill"></i>
+                            <h4>5-Star Quality</h4>
+                            <p>Committed to excellence with meticulous attention to detail on every stump we grind.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Our Stump Grinding Process</h2>
+                    <p>A simple, efficient process designed to get your yard looking its best with minimal disruption.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 fade-in">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <h4>Free Consultation</h4>
+                            <p>Contact us to schedule a free on-site assessment. We evaluate the stump size, location, and accessibility.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 fade-in">
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <h4>Detailed Quote</h4>
+                            <p>Receive a transparent, no-obligation quote based on the scope of work. No hidden fees or surprises.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 fade-in">
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <h4>Professional Grinding</h4>
+                            <p>Our skilled technicians use professional-grade equipment to grind the stump efficiently and safely.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 fade-in">
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <h4>Clean Restoration</h4>
+                            <p>We clean up all debris and fill the hole with wood chips, leaving your yard ready for landscaping.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="section section-gray">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>What Our Customers Say</h2>
+                    <p>Don't just take our word for it — hear from satisfied homeowners and businesses across Cincinnati.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 fade-in">
+                        <div class="testimonial-card">
+                            <div class="stars mb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p>Valentine Services did an amazing job removing multiple stumps from our backyard. They were professional, fast, and left the area cleaner than they found it. Highly recommend!</p>
+                            <span class="author">— Sarah M., Cincinnati, OH</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 fade-in">
+                        <div class="testimonial-card">
+                            <div class="stars mb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p>We had a massive oak stump that other companies quoted way too high for. Valentine Services gave us a fair price and completed the job in under an hour. Outstanding work!</p>
+                            <span class="author">— Mike T., Hyde Park</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 fade-in">
+                        <div class="testimonial-card">
+                            <div class="stars mb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p>Used Valentine Services for our commercial property. They handled 12 stumps in one day with zero disruption to our business operations. True professionals. Will use again!</p>
+                            <span class="author">— Jennifer L., Business Owner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Ready to Reclaim Your Yard?</h2>
+                <p>Contact Valentine Services today for a free estimate on professional stump grinding in Cincinnati, OH.</p>
+                <a href="tel:5135704626" class="btn-primary-custom"><i class="bi bi-telephone-fill me-2"></i>Call Now: 513-570-4626</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== STUMP REMOVAL PAGE ==================== -->
+    <div class="page-section" id="page-stump-removal">
+        <div class="page-header">
+            <div class="container">
+                <h1>Stump Removal Services</h1>
+                <div class="breadcrumb-custom">
+                    <a href="#" onclick="showPage('home')">Home</a>
+                    <span>/</span>
+                    <span>Stump Removal</span>
+                </div>
+            </div>
+        </div>
+        <section class="service-detail-section">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-8">
+                        <div class="service-detail-content">
+                            <h2>Professional <a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">Stump Removal</a> in Cincinnati, OH</h2>
+                            <p>When a tree is cut down, the remaining stump can become an eyesore, a tripping hazard, and a breeding ground for pests. At Valentine Services, we provide comprehensive <a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener">stump removal</a> services that completely eliminate these problems, restoring your property to its natural beauty.</p>
+                            <p>Our professional stump removal process uses industry-leading grinding equipment to reduce stumps to wood chips well below ground level. Unlike DIY methods or chemical treatments that can take months or years, our professional approach delivers immediate results you can see and enjoy the same day.</p>
+                            
+                            <h3>Why Remove Tree Stumps?</h3>
+                            <p>Leaving stumps on your property can lead to several problems that affect both the aesthetics and safety of your landscape:</p>
+                            <ul>
+                                <li><strong>Pest Attraction:</strong> Decaying stumps attract termites, carpenter ants, beetles, and other wood-boring insects that can spread to nearby healthy trees and even your home's structure.</li>
+                                <li><strong>Disease Spread:</strong> If the tree was removed due to disease, the remaining stump can harbor fungal infections and pathogens that spread to other plants in your landscape.</li>
+                                <li><strong>Safety Hazards:</strong> Stumps create tripping hazards, especially in yards where children play or where you mow the lawn regularly. They can also damage mowing equipment.</li>
+                                <li><strong>New Growth:</strong> Many tree species will sprout new shoots from the remaining stump and root system, creating ongoing maintenance issues.</li>
+                                <li><strong>Property Value:</strong> Unsightly stumps negatively impact curb appeal and can reduce your property's value, especially if you're planning to sell.</li>
+                                <li><strong>Land Usability:</strong> Stumps prevent you from using that space for landscaping, gardening, patios, or other outdoor improvements.</li>
+                            </ul>
+
+                            <h3>Our Stump Removal Process</h3>
+                            <p>At Valentine Services, we've refined our stump removal process to be as efficient and non-disruptive as possible. Here's what you can expect when you hire us for <a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener">stump removal in Cincinnati</a>:</p>
+                            <ul>
+                                <li><strong>Site Assessment:</strong> We evaluate the stump's size, species, condition, and surrounding area to determine the best approach.</li>
+                                <li><strong>Area Preparation:</strong> We clear the area around the stump of debris, rocks, and obstacles to ensure safe equipment operation.</li>
+                                <li><strong>Professional Grinding:</strong> Using our commercial-grade stump grinder, we systematically reduce the stump and major surface roots to wood chips, grinding 4-12 inches below ground level.</li>
+                                <li><strong>Debris Management:</strong> We can remove the wood chip debris or leave it for you to use as mulch — your choice.</li>
+                                <li><strong>Site Cleanup:</strong> The area is backfilled with the remaining wood chips and topsoil, leaving a clean, level surface ready for sod, seed, or landscaping.</li>
+                            </ul>
+
+                            <h3>Serving All of Cincinnati & Surrounding Areas</h3>
+                            <p>Valentine Services provides professional stump removal throughout the greater Cincinnati area, including Hyde Park, Oakley, Mariemont, Madeira, Amberley, Norwood, and all surrounding communities. Whether you have a single stump or an entire property full of them, we have the capacity and expertise to handle your project efficiently.</p>
+                            <p>Contact us today at <strong>513-570-4626</strong> for a free, no-obligation estimate on your stump removal project.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-sidebar">
+                            <h4>Our Services</h4>
+                            <ul class="sidebar-links">
+                                <li><a href="#" onclick="showPage('stump-removal')" class="active">Stump Removal</a></li>
+                                <li><a href="#" onclick="showPage('tree-stump-removal')">Tree Stump Removal</a></li>
+                                <li><a href="#" onclick="showPage('residential-stump-grinding')">Residential Stump Grinding</a></li>
+                                <li><a href="#" onclick="showPage('commercial-stump-grinding')">Commercial Stump Grinding</a></li>
+                                <li><a href="#" onclick="showPage('root-grinding')">Root Grinding</a></li>
+                            </ul>
+                            <div class="cta-box">
+                                <h4>Need Stump Removal?</h4>
+                                <p>Call us today for a free estimate!</p>
+                                <a href="tel:5135704626" class="btn-primary-custom btn-sm" style="padding:10px 20px;font-size:0.85rem;">513-570-4626</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== TREE STUMP REMOVAL PAGE ==================== -->
+    <div class="page-section" id="page-tree-stump-removal">
+        <div class="page-header">
+            <div class="container">
+                <h1>Tree Stump Removal</h1>
+                <div class="breadcrumb-custom">
+                    <a href="#" onclick="showPage('home')">Home</a>
+                    <span>/</span>
+                    <span>Tree Stump Removal</span>
+                </div>
+            </div>
+        </div>
+        <section class="service-detail-section">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-8">
+                        <div class="service-detail-content">
+                            <h2>Expert <a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">Tree Stump Removal</a> for Cincinnati Properties</h2>
+                            <p>Tree stumps left behind after tree removal can be frustrating and problematic. Valentine Services specializes in professional <a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener">tree stump removal</a> that handles stumps of all sizes, species, and conditions throughout the Cincinnati, Ohio area.</p>
+                            <p>Whether you're dealing with a small decorative tree stump or a massive old-growth oak stump, our professional-grade equipment and experienced operators can handle the job quickly and cleanly. We understand that every tree species presents unique challenges — from the dense, hard wood of locust trees to the wide-spreading root systems of maples.</p>
+
+                            <h3>Types of Tree Stumps We Remove</h3>
+                            <p>Our team has extensive experience removing stumps from virtually every tree species common to the Cincinnati region:</p>
+                            <ul>
+                                <li><strong>Oak Stumps:</strong> Dense, hard wood that requires powerful equipment. We handle red oak, white oak, and burr oak stumps of any diameter.</li>
+                                <li><strong>Maple Stumps:</strong> Known for extensive lateral root systems, maple stumps require thorough grinding to prevent regrowth.</li>
+                                <li><strong>Pine & Evergreen Stumps:</strong> These stumps often have deep taproots and resinous wood that requires specialized techniques.</li>
+                                <li><strong>Elm Stumps:</strong> Often removed due to Dutch Elm Disease, these stumps must be properly ground to prevent disease spread.</li>
+                                <li><strong>Locust & Honey Locust Stumps:</strong> Extremely hard wood that demands commercial-grade grinding equipment.</li>
+                                <li><strong>Multiples & Clusters:</strong> We efficiently handle multiple stumps in a single visit, saving you time and money.</li>
+                            </ul>
+
+                            <h3>Advanced Equipment for Every Situation</h3>
+                            <p>We invest in the latest stump grinding technology to ensure efficient, safe removal regardless of the challenge. Our fleet includes:</p>
+                            <ul>
+                                <li><strong>Standard Walk-Behind Grinders:</strong> Perfect for residential stumps in accessible areas with minimal disruption to surrounding landscaping.</li>
+                                <li><strong>Compact Track Grinders:</strong> Ideal for tight spaces, fenced yards, and areas where larger equipment can't reach without damaging your lawn.</li>
+                                <li><strong>Large Production Grinders:</strong> For commercial jobs and the largest stumps, our heavy-duty grinders tackle diameters exceeding 60 inches.</li>
+                            </ul>
+
+                            <h3>The Benefits of Professional Tree Stump Removal</h3>
+                            <p>While it may be tempting to ignore that stump or try to remove it yourself, professional removal offers significant advantages:</p>
+                            <ul>
+                                <li><strong>Complete Removal:</strong> Professional grinding removes the stump 4-12 inches below grade, preventing regrowth and eliminating the entire tripping hazard.</li>
+                                <li><strong>Time Savings:</strong> What might take you days or weeks of back-breaking labor, we accomplish in minutes to hours.</li>
+                                <li><strong>Safety:</strong> Stump grinding involves powerful spinning cutters. Our trained professionals handle this equipment safely every time.</li>
+                                <li><strong>Property Protection:</strong> We know how to operate equipment without damaging your lawn, sprinkler systems, fences, or nearby structures.</li>
+                                <li><strong>Cost-Effective:</strong> Our competitive pricing makes professional removal more affordable than you might think, especially when factoring in the value of your time.</li>
+                            </ul>
+
+                            <h3>Get Your Free Tree Stump Removal Estimate</h3>
+                            <p>Don't let tree stumps detract from your property any longer. Valentine Services offers free, no-obligation estimates for <a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener">tree stump removal in Cincinnati, OH</a>. Call <strong>513-570-4626</strong> or fill out our contact form to schedule your assessment today.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-sidebar">
+                            <h4>Our Services</h4>
+                            <ul class="sidebar-links">
+                                <li><a href="#" onclick="showPage('stump-removal')">Stump Removal</a></li>
+                                <li><a href="#" onclick="showPage('tree-stump-removal')" class="active">Tree Stump Removal</a></li>
+                                <li><a href="#" onclick="showPage('residential-stump-grinding')">Residential Stump Grinding</a></li>
+                                <li><a href="#" onclick="showPage('commercial-stump-grinding')">Commercial Stump Grinding</a></li>
+                                <li><a href="#" onclick="showPage('root-grinding')">Root Grinding</a></li>
+                            </ul>
+                            <div class="cta-box">
+                                <h4>Ready to Get Started?</h4>
+                                <p>Free estimates on all tree stump removal jobs!</p>
+                                <a href="tel:5135704626" class="btn-primary-custom btn-sm" style="padding:10px 20px;font-size:0.85rem;">513-570-4626</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== RESIDENTIAL STUMP GRINDING PAGE ==================== -->
+    <div class="page-section" id="page-residential-stump-grinding">
+        <div class="page-header">
+            <div class="container">
+                <h1>Residential Stump Grinding</h1>
+                <div class="breadcrumb-custom">
+                    <a href="#" onclick="showPage('home')">Home</a>
+                    <span>/</span>
+                    <span>Residential Stump Grinding</span>
+                </div>
+            </div>
+        </div>
+        <section class="service-detail-section">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-8">
+                        <div class="service-detail-content">
+                            <h2>Residential <a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">Stump Grinding</a> — Restore Your Home's Landscape</h2>
+                            <p>Your home's yard should be a source of pride, not frustration. Valentine Services provides expert <a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener">residential stump grinding</a> throughout Cincinnati, OH, helping homeowners reclaim their outdoor spaces from unsightly and hazardous tree stumps.</p>
+                            <p>We understand that as a homeowner, you care about your property. That's why our residential stump grinding service is designed to be thorough yet gentle on your landscape. We take special care to protect your lawn, flower beds, irrigation systems, and hardscaping while completely eliminating the stump.</p>
+
+                            <h3>Common Residential Stump Grinding Scenarios</h3>
+                            <p>Homeowners call us for a variety of stump grinding situations:</p>
+                            <ul>
+                                <li><strong>Post-Tree Removal:</strong> After a tree has been cut down or has fallen, the remaining stump needs professional removal to complete the job.</li>
+                                <li><strong>Home Sale Preparation:</strong> Removing stumps before listing your home improves curb appeal and can increase property value.</li>
+                                <li><strong>Lawn Renovation:</strong> If you're redesigning your landscape, removing old stumps is essential for a clean, uniform lawn.</li>
+                                <li><strong>Safety Concerns:</strong> Stumps in high-traffic areas of your yard pose tripping risks for family members and guests.</li>
+                                <li><strong>Pest Prevention:</strong> Removing stumps eliminates habitats for termites, ants, and other pests that could threaten your home.</li>
+                                <li><strong>New Construction:</strong> Building a deck, patio, pool, or addition requires clear, stump-free ground.</li>
+                            </ul>
+
+                            <h3>Our Residential-Friendly Approach</h3>
+                            <p>What sets our <a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener">residential stump grinding</a> apart is our commitment to minimizing impact on your property:</p>
+                            <ul>
+                                <li><strong>Compact Equipment:</strong> We use smaller, maneuverable grinders that fit through standard gate openings and won't tear up your lawn getting to the stump.</li>
+                                <li><strong>Lawn Protection:</strong> We lay down protective boards when crossing lawns to distribute weight and prevent ruts or turf damage.</li>
+                                <li><strong>Utility Awareness:</strong> Before grinding, we check for underground utilities, sprinkler lines, and other obstacles in the work area.</li>
+                                <li><strong>Clean Finish:</strong> After grinding, we backfill the hole with wood chips and leave the area tidy and ready for your next landscaping step.</li>
+                                <li><strong>Flexible Scheduling:</strong> We work around your schedule, including weekends, to minimize disruption to your family's routine.</li>
+                            </ul>
+
+                            <h3>What Happens After Grinding?</h3>
+                            <p>After we complete the stump grinding, you'll be left with a hole filled with wood chips. Here's what homeowners typically do next:</p>
+                            <ul>
+                                <li><strong>Fill with Topsoil & Seed:</strong> Add topsoil over the wood chips and plant grass seed for a seamless lawn restoration.</li>
+                                <li><strong>Plant a New Tree:</strong> If you want to replace the removed tree, the ground is ready for a new planting (after allowing a few weeks for decomposition).</li>
+                                <li><strong>Install Landscaping:</strong> Use the area for a garden bed, decorative feature, or other landscape element.</li>
+                                <li><strong>Leave as Is:</strong> The wood chips will naturally decompose over time, enriching the soil.</li>
+                            </ul>
+
+                            <h3>Trusted by Cincinnati Homeowners</h3>
+                            <p>Valentine Services has earned the trust of hundreds of Cincinnati homeowners through consistent, quality work and fair pricing. We're your neighbors, serving the community we love with professionalism and care.</p>
+                            <p>Ready to transform your yard? Call <strong>513-570-4626</strong> for your free residential stump grinding estimate today.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-sidebar">
+                            <h4>Our Services</h4>
+                            <ul class="sidebar-links">
+                                <li><a href="#" onclick="showPage('stump-removal')">Stump Removal</a></li>
+                                <li><a href="#" onclick="showPage('tree-stump-removal')">Tree Stump Removal</a></li>
+                                <li><a href="#" onclick="showPage('residential-stump-grinding')" class="active">Residential Stump Grinding</a></li>
+                                <li><a href="#" onclick="showPage('commercial-stump-grinding')">Commercial Stump Grinding</a></li>
+                                <li><a href="#" onclick="showPage('root-grinding')">Root Grinding</a></li>
+                            </ul>
+                            <div class="cta-box">
+                                <h4>Homeowner Special</h4>
+                                <p>Free estimates for all residential stump grinding projects!</p>
+                                <a href="tel:5135704626" class="btn-primary-custom btn-sm" style="padding:10px 20px;font-size:0.85rem;">513-570-4626</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== COMMERCIAL STUMP GRINDING PAGE ==================== -->
+    <div class="page-section" id="page-commercial-stump-grinding">
+        <div class="page-header">
+            <div class="container">
+                <h1>Commercial Stump Grinding</h1>
+                <div class="breadcrumb-custom">
+                    <a href="#" onclick="showPage('home')">Home</a>
+                    <span>/</span>
+                    <span>Commercial Stump Grinding</span>
+                </div>
+            </div>
+        </div>
+        <section class="service-detail-section">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-8">
+                        <div class="service-detail-content">
+                            <h2>Commercial <a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">Stump Grinding</a> for Cincinnati Businesses</h2>
+                            <p>First impressions matter for your business. Valentine Services delivers professional <a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener">commercial stump grinding</a> services for businesses, property managers, municipalities, and organizations throughout the greater Cincinnati area.</p>
+                            <p>We understand that commercial clients have unique needs — tight timelines, liability concerns, high visibility locations, and the need for minimal disruption to daily operations. Our commercial stump grinding division is equipped to handle projects of any scale while meeting these demanding requirements.</p>
+
+                            <h3>Commercial Clients We Serve</h3>
+                            <p>Our commercial stump grinding services are tailored for a wide range of business and institutional clients:</p>
+                            <ul>
+                                <li><strong>Office Parks & Business Centers:</strong> Maintain a professional appearance for tenants and visitors by removing stumps from common areas and parking landscapes.</li>
+                                <li><strong>HOA & Condominium Communities:</strong> Keep shared spaces looking pristine and safe for all residents.</li>
+                                <li><strong>Retail & Shopping Centers:</strong> Ensure parking lots, walkways, and storefront landscapes are stump-free and welcoming.</li>
+                                <li><strong>Restaurants & Hotels:</strong> Maintain attractive outdoor dining and event spaces free of stump hazards.</li>
+                                <li><strong>Parks & Recreation Departments:</strong> Municipal parks, trails, and public spaces require regular stump management.</li>
+                                <li><strong>Schools & Universities:</strong> Keep campuses safe and attractive for students, staff, and visitors.</li>
+                                <li><strong>Property Management Companies:</strong> We serve as your reliable stump grinding partner across multiple properties.</li>
+                                <li><strong>Construction & Development:</strong> Clear stumps from building sites before construction begins.</li>
+                            </ul>
+
+                            <h3>Commercial-Grade Equipment & Capacity</h3>
+                            <p>Our commercial stump grinding operation is backed by heavy-duty equipment designed for high-volume, large-scale projects:</p>
+                            <ul>
+                                <li><strong>High-Horsepower Grinders:</strong> Our commercial grinders handle stumps up to 12+ feet in diameter with ease, reducing even the largest specimens to mulch quickly.</li>
+                                <li><strong>Multi-Machine Deployment:</strong> For large projects, we can deploy multiple grinding crews simultaneously to complete the job faster.</li>
+                                <li><strong>Tracked & Rubber-Tired Options:</strong> We select the right equipment for each site — tracked machines for soft terrain, rubber-tired for paved area access.</li>
+                                <li><strong>Debris Removal Services:</strong> We can haul away all wood chip debris for a completely clean finish, or distribute it as mulch on-site.</li>
+                            </ul>
+
+                            <h3>Minimizing Business Disruption</h3>
+                            <p>We know that your business can't afford downtime. That's why our commercial stump grinding service is designed to work around your operations:</p>
+                            <ul>
+                                <li><strong>After-Hours & Weekend Service:</strong> Schedule grinding during off-peak hours to avoid impacting customers or employees.</li>
+                                <li><strong>Phased Approach:</strong> For large properties, we can complete the work in phases, keeping other areas fully operational.</li>
+                                <li><strong>Safety Perimeter Management:</strong> We establish clear safety zones and use proper signage to protect pedestrians and vehicles.</li>
+                                <li><strong>Fast Turnaround:</strong> Our efficient process means most commercial stumps are removed in minutes, not hours.</li>
+                                <li><strong>Insurance & Documentation:</strong> We carry full commercial liability insurance and can provide certificates of insurance for your records.</li>
+                            </ul>
+
+                            <h3>Volume Pricing & Contracts</h3>
+                            <p>For commercial clients with multiple stumps or ongoing stump management needs, we offer competitive volume pricing and maintenance contracts. Contact us to discuss a customized solution that fits your budget and property management plan.</p>
+                            <p>Call <strong>513-570-4626</strong> to schedule your commercial property assessment and receive a detailed quote for <a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener">commercial stump grinding in Cincinnati</a>.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-sidebar">
+                            <h4>Our Services</h4>
+                            <ul class="sidebar-links">
+                                <li><a href="#" onclick="showPage('stump-removal')">Stump Removal</a></li>
+                                <li><a href="#" onclick="showPage('tree-stump-removal')">Tree Stump Removal</a></li>
+                                <li><a href="#" onclick="showPage('residential-stump-grinding')">Residential Stump Grinding</a></li>
+                                <li><a href="#" onclick="showPage('commercial-stump-grinding')" class="active">Commercial Stump Grinding</a></li>
+                                <li><a href="#" onclick="showPage('root-grinding')">Root Grinding</a></li>
+                            </ul>
+                            <div class="cta-box">
+                                <h4>Commercial Inquiry?</h4>
+                                <p>Volume discounts available for multi-stump projects!</p>
+                                <a href="tel:5135704626" class="btn-primary-custom btn-sm" style="padding:10px 20px;font-size:0.85rem;">513-570-4626</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== ROOT GRINDING PAGE ==================== -->
+    <div class="page-section" id="page-root-grinding">
+        <div class="page-header">
+            <div class="container">
+                <h1>Root Grinding Services</h1>
+                <div class="breadcrumb-custom">
+                    <a href="#" onclick="showPage('home')">Home</a>
+                    <span>/</span>
+                    <span>Root Grinding</span>
+                </div>
+            </div>
+        </div>
+        <section class="service-detail-section">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-8">
+                        <div class="service-detail-content">
+                            <h2>Professional <a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">Root Grinding</a> — Solve Surface Root Problems</h2>
+                            <p>Surface roots can be just as problematic as stumps. They crack sidewalks, heave driveways, damage foundations, and create dangerous tripping hazards. Valentine Services offers professional <a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener">root grinding</a> services to eliminate these issues and restore safe, level surfaces to your property.</p>
+                            <p>Certain tree species are notorious for producing surface roots — maples, willows, poplars, and silver maples are common offenders in the Cincinnati area. Over time, these roots grow larger and push upward, creating bumps in your lawn, cracking concrete, and interfering with underground utilities.</p>
+
+                            <h3>Signs You Need Root Grinding</h3>
+                            <p>Watch for these indicators that surface roots are becoming a problem on your property:</p>
+                            <ul>
+                                <li><strong>Raised or Uneven Lawn Areas:</strong> Visible ridges or bumps in your yard where roots have pushed to the surface.</li>
+                                <li><strong>Cracked Sidewalks or Driveways:</strong> Roots growing beneath concrete surfaces cause cracking, heaving, and uneven sections.</li>
+                                <li><strong>Foundation Proximity Issues:</strong> Roots growing near your home's foundation can cause moisture problems and structural concerns.</li>
+                                <li><strong>Mowing Difficulties:</strong> Surface roots make mowing dangerous and can damage your mower deck.</li>
+                                <li><strong>Tripping Hazards:</strong> Exposed roots in walkways, play areas, or high-traffic zones create serious safety risks.</li>
+                                <li><strong>Landscaping Interference:</strong> Roots that prevent planting, grading, or installing new landscape features.</li>
+                            </ul>
+
+                            <h3>Our Root Grinding Process</h3>
+                            <p>Our <a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener">root grinding service</a> follows a systematic approach to ensure thorough removal while protecting your property:</p>
+                            <ul>
+                                <li><strong>Root Mapping:</strong> We assess the extent and direction of root growth to plan the most effective grinding approach.</li>
+                                <li><strong>Utility Check:</strong> Before any grinding, we verify the location of underground utilities to prevent damage.</li>
+                                <li><strong>Precision Grinding:</strong> Using specialized equipment, we grind surface roots to a depth of 6-18 inches below grade, depending on the situation.</li>
+                                <li><strong>Selective Removal:</strong> We can target specific problem roots while preserving the health of nearby trees when possible.</li>
+                                <li><strong>Grade Restoration:</strong> After grinding, we backfill and grade the area to restore a smooth, level surface.</li>
+                            </ul>
+
+                            <h3>Root Grinding vs. Root Removal</h3>
+                            <p>Root grinding offers several advantages over traditional root removal methods:</p>
+                            <ul>
+                                <li><strong>Less Invasive:</strong> Grinding doesn't require extensive digging or trenching, preserving surrounding landscaping and hardscaping.</li>
+                                <li><strong>Faster Completion:</strong> What might take days with manual removal is accomplished in hours with professional grinding.</li>
+                                <li><strong>Cost-Effective:</strong> Grinding is generally less expensive than excavation-based root removal.</li>
+                                <li><strong>Tree Health:</strong> When done properly, root grinding can address problem roots while maintaining the overall health of the tree.</li>
+                                <li><strong>Clean Results:</strong> Ground roots decompose naturally, enriching the soil without leaving voids that could cause settling.</li>
+                            </ul>
+
+                            <h3>Prevent Future Root Problems</h3>
+                            <p>After root grinding, we can advise on preventing future root issues:</p>
+                            <ul>
+                                <li><strong>Root Barriers:</strong> Installation of physical barriers to redirect root growth away from structures and surfaces.</li>
+                                <li><strong>Proper Planting:</strong> Guidance on selecting trees with less aggressive root systems for future plantings.</li>
+                                <li><strong>Mulching & Watering:</strong> Proper cultural practices that encourage deep root growth rather than surface rooting.</li>
+                            </ul>
+
+                            <h3>Schedule Your Root Grinding Assessment</h3>
+                            <p>If surface roots are causing problems on your Cincinnati property, Valentine Services can help. Our team will assess the situation, recommend the best approach, and provide a free estimate for <a href="https://www.google.com/maps?cid=7573190615928973963" target="_blank" rel="noopener">root grinding services</a>. Call <strong>513-570-4626</strong> today.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-sidebar">
+                            <h4>Our Services</h4>
+                            <ul class="sidebar-links">
+                                <li><a href="#" onclick="showPage('stump-removal')">Stump Removal</a></li>
+                                <li><a href="#" onclick="showPage('tree-stump-removal')">Tree Stump Removal</a></li>
+                                <li><a href="#" onclick="showPage('residential-stump-grinding')">Residential Stump Grinding</a></li>
+                                <li><a href="#" onclick="showPage('commercial-stump-grinding')">Commercial Stump Grinding</a></li>
+                                <li><a href="#" onclick="showPage('root-grinding')" class="active">Root Grinding</a></li>
+                            </ul>
+                            <div class="cta-box">
+                                <h4>Surface Root Problems?</h4>
+                                <p>Let us restore your property's grade and safety!</p>
+                                <a href="tel:5135704626" class="btn-primary-custom btn-sm" style="padding:10px 20px;font-size:0.85rem;">513-570-4626</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== ABOUT PAGE ==================== -->
+    <div class="page-section" id="page-about">
+        <div class="page-header">
+            <div class="container">
+                <h1>About Valentine Services</h1>
+                <div class="breadcrumb-custom">
+                    <a href="#" onclick="showPage('home')">Home</a>
+                    <span>/</span>
+                    <span>About Us</span>
+                </div>
+            </div>
+        </div>
+        <section class="section">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 fade-in">
+                        <div class="about-img-wrapper">
+                            <div class="about-img-content">
+                                <i class="bi bi-tree-fill"></i>
+                                <h3>Valentine Services</h3>
+                                <p style="font-size:1.1rem;opacity:0.9;">Stump Grinding Professionals</p>
+                                <p style="opacity:0.8;margin-top:10px;">Serving Cincinnati, OH Since Day One</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 fade-in">
+                        <h2 style="color:var(--primary);font-size:2rem;margin-bottom:20px;">Your Trusted Stump Grinding Experts in Cincinnati</h2>
+                        <p>Valentine Services - Stump Grinding was founded with a simple mission: to provide Cincinnati homeowners and businesses with the highest quality stump grinding and removal services at fair, honest prices.</p>
+                        <p>Based at <strong>1803 Josephine St, Cincinnati, OH 45219</strong>, we're a locally owned and operated business that takes pride in serving our community. We understand the unique challenges that Cincinnati's diverse tree species and clay-heavy soils present when it comes to stump removal and root management.</p>
+                        <p>Our founder built this company on the principles of hard work, integrity, and customer satisfaction. Every job — whether it's a single small stump or a commercial property with dozens of stumps — receives the same level of care, attention, and professionalism.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-gray">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Our Values & Commitment</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 fade-in">
+                        <div class="feature-item" style="background:var(--white);border-radius:8px;box-shadow:var(--shadow);padding:40px 30px;">
+                            <i class="bi bi-heart-fill"></i>
+                            <h4>Customer First</h4>
+                            <p>Every decision we make starts with what's best for our customers. We listen to your needs, provide honest recommendations, and deliver results that exceed expectations.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 fade-in">
+                        <div class="feature-item" style="background:var(--white);border-radius:8px;box-shadow:var(--shadow);padding:40px 30px;">
+                            <i class="bi bi-award-fill"></i>
+                            <h4>Quality Workmanship</h4>
+                            <p>We don't cut corners. Every stump is ground thoroughly, every site is cleaned completely, and every customer leaves satisfied with our professional results.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 fade-in">
+                        <div class="feature-item" style="background:var(--white);border-radius:8px;box-shadow:var(--shadow);padding:40px 30px;">
+                            <i class="bi bi-people-fill"></i>
+                            <h4>Community Focused</h4>
+                            <p>As a Cincinnati-based business, we're invested in our community. We treat every property as if it were our own neighbor's yard — with respect and care.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 fade-in">
+                        <h2 style="color:var(--primary);font-size:2rem;margin-bottom:20px;">What Sets Us Apart</h2>
+                        <p>With many service providers in the Cincinnati area, here's why homeowners and businesses choose Valentine Services:</p>
+                        <ul style="list-style:none;padding:0;">
+                            <li style="padding:12px 0 12px 35px;position:relative;border-bottom:1px solid #eee;">
+                                <i class="bi bi-check-circle-fill" style="position:absolute;left:0;color:var(--accent);font-size:1.2rem;"></i>
+                                <strong>Professional-Grade Equipment:</strong> We invest in commercial-quality stump grinders that get the job done faster and more thoroughly.
+                            </li>
+                            <li style="padding:12px 0 12px 35px;position:relative;border-bottom:1px solid #eee;">
+                                <i class="bi bi-check-circle-fill" style="position:absolute;left:0;color:var(--accent);font-size:1.2rem;"></i>
+                                <strong>Experienced Operators:</strong> Our team has extensive experience with all tree species and stump conditions common to the Ohio region.
+                            </li>
+                            <li style="padding:12px 0 12px 35px;position:relative;border-bottom:1px solid #eee;">
+                                <i class="bi bi-check-circle-fill" style="position:absolute;left:0;color:var(--accent);font-size:1.2rem;"></i>
+                                <strong>Transparent Pricing:</strong> No hidden fees, no surprises. We provide detailed quotes before any work begins.
+                            </li>
+                            <li style="padding:12px 0 12px 35px;position:relative;border-bottom:1px solid #eee;">
+                                <i class="bi bi-check-circle-fill" style="position:absolute;left:0;color:var(--accent);font-size:1.2rem;"></i>
+                                <strong>Full Cleanup Included:</strong> Every job includes thorough cleanup — we leave your property better than we found it.
+                            </li>
+                            <li style="padding:12px 0 12px 35px;position:relative;border-bottom:1px solid #eee;">
+                                <i class="bi bi-check-circle-fill" style="position:absolute;left:0;color:var(--accent);font-size:1.2rem;"></i>
+                                <strong>Flexible Scheduling:</strong> Open Monday through Saturday with 24-hour availability to fit your schedule.
+                            </li>
+                            <li style="padding:12px 0 12px 35px;position:relative;">
+                                <i class="bi bi-check-circle-fill" style="position:absolute;left:0;color:var(--accent);font-size:1.2rem;"></i>
+                                <strong>Locally Owned:</strong> We're your neighbors, committed to building lasting relationships in the Cincinnati community.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 fade-in">
+                        <div style="background:var(--primary);color:var(--white);padding:50px 40px;border-radius:8px;text-align:center;">
+                            <i class="bi bi-telephone-fill" style="font-size:3rem;color:var(--accent);margin-bottom:20px;display:block;"></i>
+                            <h3 style="font-size:1.8rem;margin-bottom:15px;">Ready to Get Started?</h3>
+                            <p style="opacity:0.9;margin-bottom:25px;">Contact Valentine Services today for your free estimate. We're here to help with all your stump grinding needs.</p>
+                            <a href="tel:5135704626" class="btn-primary-custom" style="font-size:1.2rem;">513-570-4626</a>
+                            <p style="margin-top:20px;font-size:0.9rem;opacity:0.7;">1803 Josephine St, Cincinnati, OH 45219</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== CONTACT PAGE ==================== -->
+    <div class="page-section" id="page-contact">
+        <div class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <div class="breadcrumb-custom">
+                    <a href="#" onclick="showPage('home')">Home</a>
+                    <span>/</span>
+                    <span>Contact Us</span>
+                </div>
+            </div>
+        </div>
+        <section class="section">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Get In Touch</h2>
+                    <p>Ready for a free estimate or have questions about our stump grinding services? Reach out to Valentine Services — we're here to help!</p>
+                </div>
+
+                <!-- Contact Info Cards -->
+                <div class="row g-4 mb-5">
+                    <div class="col-lg-3 col-md-6 fade-in">
+                        <div class="contact-info-card">
+                            <i class="bi bi-telephone-fill"></i>
+                            <h4>Phone</h4>
+                            <a href="tel:5135704626">513-570-4626</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 fade-in">
+                        <div class="contact-info-card">
+                            <i class="bi bi-envelope-fill"></i>
+                            <h4>Email</h4>
+                            <a href="mailto:bikemanjrv95@gmail.com">bikemanjrv95@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 fade-in">
+                        <div class="contact-info-card">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <h4>Address</h4>
+                            <p>1803 Josephine St<br>Cincinnati, OH 45219</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 fade-in">
+                        <div class="contact-info-card">
+                            <i class="bi bi-clock-fill"></i>
+                            <h4>Business Hours</h4>
+                            <p>Mon - Sat: Open 24 Hours<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-5">
+                    <!-- Contact Form -->
+                    <div class="col-lg-7 fade-in">
+                        <div class="contact-form">
+                            <h3 style="color:var(--primary);margin-bottom:5px;">Send Us a Message</h3>
+                            <p style="color:var(--gray);margin-bottom:30px;">Fill out the form below and we'll get back to you promptly with a free estimate.</p>
+                            <form id="contactForm" onsubmit="handleFormSubmit(event)">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="firstName">First Name *</label>
+                                        <input type="text" class="form-control" id="firstName" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="lastName">Last Name *</label>
+                                        <input type="text" class="form-control" id="lastName" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email">Email Address *</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="phone">Phone Number *</label>
+                                        <input type="tel" class="form-control" id="phone" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="service">Service Needed</label>
+                                        <select class="form-control" id="service">
+                                            <option value="">Select a Service</option>
+                                            <option value="stump-removal">Stump Removal</option>
+                                            <option value="tree-stump-removal">Tree Stump Removal</option>
+                                            <option value="residential-stump-grinding">Residential Stump Grinding</option>
+                                            <option value="commercial-stump-grinding">Commercial Stump Grinding</option>
+                                            <option value="root-grinding">Root Grinding</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="address">Property Address</label>
+                                        <input type="text" class="form-control" id="address" placeholder="Street address, Cincinnati, OH">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="message">Message *</label>
+                                        <textarea class="form-control" id="message" rows="5" required placeholder="Tell us about your stump removal needs..."></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn-green" style="width:100%;border:none;cursor:pointer;">
+                                            <i class="bi bi-send-fill me-2"></i>Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                            <div id="formSuccess" style="display:none;margin-top:20px;padding:20px;background:#d4edda;border-radius:5px;color:#155724;text-align:center;">
+                                <i class="bi bi-check-circle-fill" style="font-size:1.5rem;"></i>
+                                <p style="margin-top:10px;font-weight:600;">Thank you! Your message has been sent successfully. We'll contact you shortly.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Map -->
+                    <div class="col-lg-5 fade-in">
+                        <div class="map-wrapper mb-4">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d196996.1178672013!2d-80.4304199!3d39.5130375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4420c48ef642b3cb%3A0x691960bd9ec4aa8b!2sValentine%20Services%20-%20Stump%20Grinding!5e0!3m2!1sen!2sus!4v1780586343821!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div style="background:var(--gray-light);padding:25px;border-radius:8px;">
+                            <h4 style="color:var(--primary);margin-bottom:15px;"><i class="bi bi-info-circle me-2"></i>Service Area</h4>
+                            <p style="color:var(--gray);font-size:0.9rem;margin-bottom:10px;">Valentine Services proudly serves Cincinnati and all surrounding communities including:</p>
+                            <p style="color:var(--gray);font-size:0.85rem;">Hyde Park • Oakley • Mariemont • Madeira • Amberley • Norwood • Kenwood • Madeira • Indian Hill • Montgomery • Symmes Township • West Chester • Mason • Loveland • Milford • Batavia • Anderson Township • Delhi • Cheviot • Colerain Township • And all of Hamilton County</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-logo">
+                        <img src="https://www.513stumps.com/images/valentine_logo2.svg" alt="Valentine Services Logo">
+                    </div>
+                    <p style="margin-bottom:20px;">Professional stump grinding and removal services in Cincinnati, OH. We restore your landscape to its full beauty with fast, affordable, and thorough service.</p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/513stumpgrinding/" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#" onclick="showPage('home')">Home</a></li>
+                        <li><a href="#" onclick="showPage('about')">About Us</a></li>
+                        <li><a href="#" onclick="showPage('contact')">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Our Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="#" onclick="showPage('stump-removal')">Stump Removal</a></li>
+                        <li><a href="#" onclick="showPage('tree-stump-removal')">Tree Stump Removal</a></li>
+                        <li><a href="#" onclick="showPage('residential-stump-grinding')">Residential Stump Grinding</a></li>
+                        <li><a href="#" onclick="showPage('commercial-stump-grinding')">Commercial Stump Grinding</a></li>
+                        <li><a href="#" onclick="showPage('root-grinding')">Root Grinding</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Contact Info</h5>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <span>1803 Josephine St<br>Cincinnati, OH 45219, United States</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-telephone-fill"></i>
+                        <a href="tel:5135704626" style="color:rgba(255,255,255,0.7);text-decoration:none;">513-570-4626</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-envelope-fill"></i>
+                        <a href="mailto:bikemanjrv95@gmail.com" style="color:rgba(255,255,255,0.7);text-decoration:none;">bikemanjrv95@gmail.com</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-clock-fill"></i>
+                        <span>Mon - Sat: Open 24 Hours</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Valentine Services - Stump Grinding. All Rights Reserved. | 1803 Josephine St, Cincinnati, OH 45219 | <a href="tel:5135704626" style="color:var(--accent);text-decoration:none;">513-570-4626</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" onclick="scrollToTop()">
+        <i class="bi bi-chevron-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Page Navigation
+        function showPage(pageId) {
+            // Hide all pages
+            document.querySelectorAll('.page-section').forEach(page => {
+                page.classList.remove('active');
+            });
+
+            // Show selected page
+            const targetPage = document.getElementById('page-' + pageId);
+            if (targetPage) {
+                targetPage.classList.add('active');
+            }
+
+            // Update active nav link
+            document.querySelectorAll('.nav-links > li > a').forEach(link => {
+                link.classList.remove('active');
+            });
+
+            // Close mobile menu
+            document.getElementById('navLinks').classList.remove('show');
+
+            // Scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            // Re-trigger animations
+            setTimeout(() => {
+                observeElements();
+            }, 100);
+        }
+
+        // Mobile Menu Toggle
+        function toggleMobileMenu() {
+            document.getElementById('navLinks').classList.toggle('show');
+        }
+
+        // Scroll to Top
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Scroll Events
+        window.addEventListener('scroll', function() {
+            const scrollTop = document.getElementById('scrollTop');
+            const header = document.getElementById('mainHeader');
+
+            if (window.scrollY > 300) {
+                scrollTop.classList.add('show');
+            } else {
+                scrollTop.classList.remove('show');
+            }
+
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Intersection Observer for Animations
+        function observeElements() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.fade-in').forEach(el => {
+                observer.observe(el);
+            });
+        }
+
+        // Form Submission Handler
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            const form = document.getElementById('contactForm');
+            const success = document.getElementById('formSuccess');
+            
+            form.style.display = 'none';
+            success.style.display = 'block';
+
+            // Reset after 5 seconds
+            setTimeout(() => {
+                form.style.display = 'block';
+                success.style.display = 'none';
+                form.reset();
+            }, 5000);
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            observeElements();
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', function() {
+                if (window.innerWidth <= 991) {
+                    document.getElementById('navLinks').classList.remove('show');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
